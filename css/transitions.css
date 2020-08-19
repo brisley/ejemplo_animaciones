@@ -1,0 +1,53 @@
+body {
+  background: rgb(233, 175, 194);
+}
+.contenedor {
+  margin: 0 auto;
+  width: 600px;
+  font-family: sans-serif;
+}
+
+.transicion {
+  transition: 0.3s;
+  /* transition-duration: .3s;
+  transition-timing-function: linear;
+  transition-property: ocacity; */
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+.opacity:hover {
+  opacity: 1;
+}
+
+.fuente:hover {
+  font-size: 20px;
+  font-weight: 600;
+}
+.colores:hover {
+  color: blue;
+  background: chartreuse;
+}
+.rotacion:hover {
+  transform: rotate(360deg);
+}
+.escala:hover {
+  transform: scale(2);
+}
+.sesgado:hover {
+  transform: skew(45deg);
+}
+.traslacion:hover {
+  transform: translateX(50px);
+}
+.mixtas:hover {
+  transform: rotate(45deg) scale(2) skew(45deg) translateX(50px);
+}
